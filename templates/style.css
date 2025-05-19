@@ -1,0 +1,141 @@
+    body {
+      scroll-behavior: smooth;
+      font-family: 'league spartan',sans-serif;
+    }
+
+    header {
+      background-color: #343a40;
+      color: white;
+      padding: 1rem;
+    }
+
+    header h1 {
+      cursor: pointer;
+      /* margin: 0; */
+      background-color: green;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 40px;
+      font-size: 16px;
+      
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .intro {
+      background-color: #f8f9fa;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-top: 60px;
+      margin-bottom: 30px;
+      color: #444
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 0 20px;
+      cursor: pointer;
+    }
+
+    .skill {
+      background-color: green;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-size: 16px;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 0 20px;
+    }
+
+    .project {
+      max-width: 300px;
+      background-color: #ffffff;
+      border: 1px solid #dee2e6;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+    }
+
+    .project img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .project h3, .project p {
+      padding: 0 15px;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding: 0 20px 60px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      border: 1px solid #ced4da;
+      border-radius: 5px;
+      resize: none;
+    }
+
+    .contact-form button {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #343a40;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .socials a {
+      margin: 0 10px;
+      color: #f8f9fa;
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      text-decoration: underline;
+    }
+
